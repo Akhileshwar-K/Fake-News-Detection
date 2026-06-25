@@ -7,6 +7,11 @@ This project investigates the effectiveness of machine learning and transformer-
 Classical machine learning models and a DistilBERT transformer model were trained using publicly available fake and real news datasets and evaluated on both in-domain and cross-topic (COVID-19) datasets to assess their robustness.
 
 ---
+## Project Motivation
+
+Many fake news detection models report extremely high accuracy on benchmark datasets. However, these datasets often contain articles from similar topics as the training data. This project investigates whether such models can generalise to unseen domains by evaluating them on COVID-19 news articles.
+
+---
 
 ## Objectives
 
@@ -87,7 +92,7 @@ Each article contains metadata including the title, subject, publication date an
 | Logistic Regression | High Accuracy | Performance decreased |
 | Random Forest | High Accuracy | Performance decreased |
 | Support Vector Machine | High Accuracy | Performance decreased |
-| DistilBERT | **99.94% Accuracy** | Significant performance drop on COVID-19 articles |
+| DistilBERT | **99.94% Accuracy** | Significant performance drop (**22% Accuracy**) on COVID-19 articles |
 
 ---
 
@@ -98,6 +103,7 @@ Each article contains metadata including the title, subject, publication date an
 - Model performance declined significantly when evaluated on unseen COVID-19 articles.
 - The results suggest that high benchmark accuracy does not necessarily imply good real-world generalisation.
 - Cross-topic evaluation highlighted the importance of testing machine learning models on unseen domains before deployment.
+- High benchmark accuracy alone is not sufficient to assess model robustness.
 
 ---
 
