@@ -149,10 +149,16 @@ Each article contains metadata including the title, subject, publication date an
 
 ---
 
-## Author
+## Project Context
 
-Akhileshwar Reddy Kolanupaka
+This project was completed as part of a university group assignment.
 
-Master of Data Science
+### My Contributions
 
-The University of Queensland
+- Proposed the project topic and research direction.
+- Collected and prepared the datasets.
+- Performed data cleaning and text preprocessing.
+- Implemented the machine learning and DistilBERT models.
+- Conducted model training and evaluation.
+- Generated visualisations and analysed the experimental results.
+- Contributed to the technical analysis presented in the final report.
